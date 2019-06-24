@@ -11,3 +11,5 @@ ENV MYSQL_ROOT_PASSWORD secret
 # executed during container startup
 
 COPY ./sql-scripts/ /docker-entrypoint-initdb.d/
+
+EXPOSE 3306
